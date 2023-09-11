@@ -25,10 +25,9 @@ public class Main {
         System.out.println("Difference between \n " + startTime + " \n and \n " + endTime + " \n are " + difference + " Days");
 
         System.out.println("\n Animal Birthday \n ---------------");
-        Animal hippo = new Animal(LocalDate.of(2023, 2, 10), "Hippo");
-
-        long daysToBirthday = ChronoUnit.DAYS.between(hippo.birthDay(), LocalDate.now());
-
-        System.out.println("The Birthday of " + hippo.name() + " is in " + daysToBirthday + " days.");
+        Animal hippo = new Animal(LocalDate.of(2019, 2, 10), "Hippo");
+        System.out.println("Today: " +LocalDate.now());
+        System.out.println("Only " + hippo.getDaysToBirthday() + " to birthday....");
+        System.out.println("Day of birth: " + hippo.birthDay());
     }
 }
