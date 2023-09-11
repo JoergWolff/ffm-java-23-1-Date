@@ -12,3 +12,17 @@ Erstellt ein neues Projekt in IntelliJ (bitte eine Java-Anwendung) und nutzt die
     Schritt 3: Vergleiche das aktuelle Datum mit einem festgelegten zukünftigen Datum und gib aus, ob das aktuelle Datum vor oder nach dem festgelegten Datum liegt.
 
     Schritt 4: Berechne die Differenz in Tagen zwischen zwei beliebigen Daten und gib das Ergebnis aus.
+
+## Bonus-Aufgabe
+
+Wow, Ihr seid schnell! Wenn ihr mögt, bearbeitet zusätzlich diese freiwillige Bonusaufgabe.
+
+
+    Schreibe eine Klasse Animal an und füge ihr ein Attribut birthday und name hinzu.
+
+    Lege eine Instanz der Klasse Animal an.
+
+    Gib auf der Kommandozeile aus, wie viele Tage es bis zum nächsten Geburtstag des Tieres sind
+
+    Achtung: Überlege, ob Du den Geburtstag mit oder ohne Zeitzone speichern solltest. Was ist sinnvoller?
+

@@ -1,5 +1,6 @@
 package de.wolffclan;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 
@@ -23,6 +24,11 @@ public class Main {
        long difference= ChronoUnit.DAYS.between(startTime,endTime);
         System.out.println("Difference between \n " + startTime + " \n and \n " + endTime + " \n are " + difference + " Days");
 
+        System.out.println("\n Animal Birthday \n ---------------");
+        Animal hippo = new Animal(LocalDate.of(2023, 2, 10), "Hippo");
 
+        long daysToBirthday = ChronoUnit.DAYS.between(hippo.birthDay(), LocalDate.now());
+
+        System.out.println("The Birthday of " + hippo.name() + " is in " + daysToBirthday + " days.");
     }
 }
