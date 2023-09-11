@@ -29,5 +29,6 @@ public class Main {
         System.out.println("Today: " +LocalDate.now());
         System.out.println("Only " + hippo.getDaysToBirthday() + " to birthday....");
         System.out.println("Day of birth: " + hippo.birthDay());
+
     }
 }
