@@ -25,7 +25,7 @@ public class Main {
         System.out.println("Difference between \n " + startTime + " \n and \n " + endTime + " \n are " + difference + " Days");
 
         System.out.println("\n Animal Birthday \n ---------------");
-        Animal hippo = new Animal(LocalDate.of(2019, 2, 10), "Hippo");
+        Animal hippo = new Animal(LocalDate.of(2010, 10, 2), "Hippo");
         System.out.println("Today: " +LocalDate.now());
         System.out.println("Only " + hippo.getDaysToBirthday() + " to birthday....");
         System.out.println("Day of birth: " + hippo.birthDay());
